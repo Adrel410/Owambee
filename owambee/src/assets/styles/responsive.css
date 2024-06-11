@@ -1,0 +1,17 @@
+/* responsive.css */
+
+/* Ensure the application is responsive and works well on various devices */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    header img {
+        height: 40px;
+    }
+}
