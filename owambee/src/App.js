@@ -1,5 +1,5 @@
+// src/App.js
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import FeaturedRestaurants from './components/FeaturedRestaurants';
@@ -20,5 +20,6 @@ function App() {
     );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
+
 
